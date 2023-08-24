@@ -1,1 +1,120 @@
-/*# sourceMappingURL=navbar.css.map */
+@media screen and (max-width: 430px) {
+  #navbar {
+    margin-left: 0px;
+  }
+  #navbar .nav-container .burger-link-container .btn {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #navbar .nav-container .burger-link-container .btn #div-01 {
+    border: 1px solid;
+    width: 40px;
+    margin-bottom: -2px;
+    rotate: 45grad;
+  }
+  #navbar .nav-container .burger-link-container .btn #div-02 {
+    display: none;
+  }
+  #navbar .nav-container .burger-link-container .btn #div-03 {
+    border: 1px solid;
+    width: 40px;
+    rotate: -45grad;
+  }
+  #navbar .nav-container .burger-link-container .btn-active {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  #navbar .nav-container .burger-link-container .btn-active #div-01 {
+    border: 1px solid;
+    width: 35px;
+    margin-bottom: 10px;
+  }
+  #navbar .nav-container .burger-link-container .btn-active #div-02 {
+    border: 1px solid;
+    width: 35px;
+    margin-bottom: 10px;
+  }
+  #navbar .nav-container .burger-link-container .btn-active #div-03 {
+    border: 1px solid;
+    width: 35px;
+    margin-bottom: 10px;
+  }
+  #navbar .nav-container .burger-link-container .li-container {
+    position: absolute;
+    transition: 0.7s;
+    left: 0;
+    top: 0;
+    background-image: url("https://wallpapers.com/images/featured/high-resolution-blue-background-g09nt3i1k5w4dpc1.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar .nav-container .burger-link-container .li-container h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 40px;
+  }
+  #navbar .nav-container .burger-link-container .li-container ul {
+    flex-direction: column;
+    padding-left: 10px;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #navbar .nav-container .burger-link-container .li-container ul li {
+    list-style: none;
+    text-align: center;
+  }
+  #navbar .nav-container .burger-link-container .li-container ul li a {
+    font-size: 25px;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active {
+    position: absolute;
+    transition: 0.7s;
+    left: 0;
+    top: -100vh;
+    background-image: url("https://wallpapers.com/images/featured/high-resolution-blue-background-g09nt3i1k5w4dpc1.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 40px;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active ul {
+    flex-direction: column;
+    padding-left: 10px;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active ul li {
+    list-style: none;
+    text-align: center;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active ul li a {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
