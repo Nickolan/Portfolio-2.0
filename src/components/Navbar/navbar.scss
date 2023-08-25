@@ -5,6 +5,7 @@
         margin-left: 0px;
 
         .nav-container {
+            
             .burger-link-container {
                 .btn {
                     position: absolute;
@@ -75,6 +76,8 @@
                     height: 100vh;
                     display: flex;
                     flex-direction: column;
+                    box-shadow: 16px 14px 20px #000000;
+                    overflow: hidden;
 
                     h2{
                         text-align: center;
@@ -103,7 +106,7 @@
                 }
 
                 .li-container-active {
-                    position: absolute;
+                    position:absolute;
                     transition: .7s;
                     left: 0;
                     top: -100vh;
@@ -131,14 +134,26 @@
                         li {
                             list-style: none;
                             text-align: center;
-
+                            
                             a {
+                                z-index: 20;
                                 font-size: 25px;
                             }
                         }
                     }
                 }
+
             }
         }
+    }
+}
+
+//KeyFrames
+@keyframes rotacion {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
     }
 }

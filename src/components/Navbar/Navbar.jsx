@@ -5,7 +5,7 @@ import { LeneguageContext } from '../LenguageContext'
 export default function Navbar() {
 
   const {isEnglish, toogleLenguage} = useContext(LeneguageContext)
-  const [menuOpen, setMenuOpen] = useState(true)
+  const [menuOpen, setMenuOpen] = useState(false)
   const openBrugerNavbar = () =>{
     setMenuOpen(!menuOpen)
   }
