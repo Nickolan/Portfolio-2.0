@@ -1,0 +1,43 @@
+// Mobile
+@media screen and (max-width: 430px){
+    .HomeContent{
+        height: 60vh;
+        text-align: center;
+        border: 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .HomePresentation{
+            h2{
+                font-size: 30px;
+                color: #0f17ff;
+                -webkit-text-stroke: 1px #fff;
+                -moz-text-shadow: 0px 0px 30px #fff;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px #fff;
+            }
+            h1{
+                font-size: 50px;
+                color: #0f13ff;
+                -webkit-text-stroke: 1px #fff;
+                -moz-text-shadow: 0px 0px 30px #fff;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px #fff;
+            }
+        }
+        .HomeBio{
+            h2{
+                font-size: 30px;
+                color: #0f17ff;
+                -webkit-text-stroke: 1px #fff;
+                -moz-text-shadow: 0px 0px 30px #fff;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px #fff;
+            }
+        }
+        .HomeWelcome{
+            border: solid 2px #0f13ff;
+            background-color: #0f17ffbf;
+        }
+    }
+}

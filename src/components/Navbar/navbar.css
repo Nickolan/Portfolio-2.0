@@ -1,5 +1,6 @@
 @media screen and (max-width: 430px) {
   #navbar {
+    margin-bottom: 20%;
     margin-left: 0px;
   }
   #navbar .nav-container .burger-link-container .btn {
