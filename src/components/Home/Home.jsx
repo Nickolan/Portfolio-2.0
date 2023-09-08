@@ -1,12 +1,15 @@
 import React, { useContext } from 'react'
 import { LeneguageContext } from '../LenguageContext'
+import BgAnimated from '../background animated/BgAnimated'
 import './Home.css'
 
 const Home = () => {
     const {isEnglish} = useContext(LeneguageContext)
   return (
     <div className='HomeContent'>
-        <div className='HomePresentation'>
+
+        <BgAnimated></BgAnimated>
+        {/* <div className='HomePresentation '>
             <h2>{isEnglish ? "HELLO, I'M" : 'HOLA, SOY'}</h2>
             <h1>Nicolas Navarrete</h1>
         </div>
@@ -15,9 +18,10 @@ const Home = () => {
         </div>
         <div className='HomeWelcome'>
             <h2 >{isEnglish ? "WELCOME TO MY PORTFOLIO" : "BIENVENIDOS A MI PORTFOLIO"}</h2>
-        </div>
+        </div> */}
     </div>
   )
 }
+
 
 export default Home

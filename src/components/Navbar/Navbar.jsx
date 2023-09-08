@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav id='navbar'>
       <div className='nav-container'>
-        <div className='burger-link-container'>
+        <div className='burger-link-container '>
           <button className={!menuOpen ? 'btn-active' : 'btn'} onClick={openBrugerNavbar}>
             <div id='div-01'></div>
             <div id='div-02'></div>

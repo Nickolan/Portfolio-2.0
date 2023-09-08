@@ -11,7 +11,7 @@ function App() {
       <LenguageProvider>
         <div className='contentApp'>
             <div className='navbar'>
-              <Navbar/>
+              {/* <Navbar/> */}
               <Home/>
             </div>
         </div>
