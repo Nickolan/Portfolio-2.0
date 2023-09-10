@@ -1,15 +1,18 @@
 @media screen and (max-width: 430px) {
   .HomeContent {
+    display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    height: 60vh;
+    gap: 30px;
   }
   .HomeContent .HomePresentation {
     z-index: 20;
   }
   .HomeContent .HomePresentation h2 {
     font-size: 30px;
-    color: #0f17ff;
+    color: var(--primary-color);
     -webkit-text-stroke: 0.7px #fff;
     -moz-text-shadow: 0px 0px 30px #fff;
     -webkit-text-shadow: 0px 0px 30px #fff;
@@ -17,7 +20,7 @@
   }
   .HomeContent .HomePresentation h1 {
     font-size: 50px;
-    color: #0f13ff;
+    color: var(--primary-color);
     -webkit-text-stroke: 1px #fff;
     -moz-text-shadow: 0px 0px 30px #fff;
     -webkit-text-shadow: 0px 0px 30px #fff;
@@ -27,17 +30,21 @@
     z-index: 20;
   }
   .HomeContent .HomeBio h2 {
-    font-size: 30px;
-    color: #0f17ff;
+    font-size: 35px;
+    color: var(--primary-color);
     -webkit-text-stroke: 1px #fff;
     -moz-text-shadow: 0px 0px 30px #fff;
     -webkit-text-shadow: 0px 0px 30px #fff;
     text-shadow: 0px 0px 30px #fff;
   }
-  .HomeContent .HomeWelcome {
-    z-index: 20;
-    border: solid 2px #0f13ff;
-    background-color: rgba(15, 23, 255, 0.7490196078);
+  .HomeContent .HomeBio h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+    -webkit-text-stroke: 0.5px #fff;
+    -moz-text-shadow: 0px 0px 30px #fff;
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px #fff;
+    animation: welcomeText 7s linear infinite;
   }
 }
 @keyframes transitioner {
@@ -51,5 +58,16 @@
   100% {
     opacity: 0;
     top: 20vh;
+  }
+}
+@keyframes welcomeText {
+  0% {
+    font-size: 30px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=Home.css.map */

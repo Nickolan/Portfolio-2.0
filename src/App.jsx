@@ -1,21 +1,22 @@
 import './App.css'
-import { LenguageProvider } from './components/LenguageContext'
+import { LeneguageContext } from './components/LenguageContext';
+import { useContext } from 'react';
 
 // Components
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import BgAnimated from './components/background animated/BgAnimated';
 
 function App() {
-
+  const {thisColor} = useContext(LeneguageContext);
   return (
-      <LenguageProvider>
-        <div className='contentApp'>
-            <div className='navbar'>
-              {/* <Navbar/> */}
+        <div className='contentApp ' >
+            <div className='' style={{"--primary-color": thisColor ? "#4fc3dc" : "#ff2d75"}}>
+              <BgAnimated/>
+              <Navbar/>
               <Home/>
             </div>
         </div>
-      </LenguageProvider>
   )
 }
 

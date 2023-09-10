@@ -1,6 +1,9 @@
+$primary-Color: var(--primary-color);
+
 //Mobile design
 @media screen and (max-width: 430px) {
     #navbar {
+        color: #ffffff;
         margin-bottom: 20%;
         margin-left: 0px;
         .nav-container {
@@ -14,7 +17,7 @@
                     border: none;
                     display: flex;
                     flex-direction: column;
-                    z-index: 10;
+                    z-index: 60;
                     
 
                     #div-01{
@@ -43,7 +46,7 @@
                     border: none;
                     display: flex;
                     flex-direction: column;
-                    z-index: 10;
+                    z-index: 60;
 
                     #div-01{
                         border: 1px solid;
@@ -77,6 +80,7 @@
                     flex-direction: column;
                     box-shadow: 16px 14px 20px #000000;
                     overflow: hidden;
+                    z-index: 40;
 
                     h2{
                         text-align: center;
@@ -84,6 +88,15 @@
                         margin-top: 20px;
                         font-size: 30px;
                         width: 40px;
+                    }
+                    #colorChanger{
+                        background-color: $primary-Color;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        transition: 1s;
+                    }
+                    #colorChanger:active{
+                        transform: scale(0.5);
                     }
                     
                     ul {
@@ -114,6 +127,7 @@
                     height: 100vh;
                     display: flex;
                     flex-direction: column;
+                    z-index: 40;
 
                     h2{
                         text-align: center;
@@ -121,6 +135,12 @@
                         margin-top: 20px;
                         font-size: 30px;
                         width: 40px;
+                    }
+                    #colorChanger{
+                        background-color: $primary-Color;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        transition: 1s;
                     }
                     
                     ul {
@@ -144,15 +164,5 @@
 
             }
         }
-    }
-}
-
-//KeyFrames
-@keyframes rotacion {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(-360deg);
     }
 }

@@ -4,7 +4,7 @@ import { LeneguageContext } from '../LenguageContext'
 
 export default function Navbar() {
 
-  const {isEnglish, toogleLenguage} = useContext(LeneguageContext)
+  const {isEnglish, toogleLenguage, thisColor, toogleColor} = useContext(LeneguageContext)
   const [menuOpen, setMenuOpen] = useState(false)
   const openBrugerNavbar = () =>{
     setMenuOpen(!menuOpen)
@@ -21,6 +21,7 @@ export default function Navbar() {
           </button>
           <div className={!menuOpen ? 'li-container-active' : 'li-container'}>
             <h2 onClick={toogleLenguage}>{isEnglish ? 'En' : 'Es'}</h2>
+            <div id='colorChanger' onClick={toogleColor} className='rounded-full border w-10 h-10'></div>
             <ul>
               <li>
                 <a>{isEnglish ? 'Home' : 'Inicio'}</a>

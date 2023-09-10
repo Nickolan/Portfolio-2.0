@@ -1,5 +1,6 @@
 @media screen and (max-width: 430px) {
   #navbar {
+    color: #ffffff;
     margin-bottom: 20%;
     margin-left: 0px;
   }
@@ -11,7 +12,7 @@
     border: none;
     display: flex;
     flex-direction: column;
-    z-index: 10;
+    z-index: 60;
   }
   #navbar .nav-container .burger-link-container .btn #div-01 {
     border: 1px solid;
@@ -35,7 +36,7 @@
     border: none;
     display: flex;
     flex-direction: column;
-    z-index: 10;
+    z-index: 60;
   }
   #navbar .nav-container .burger-link-container .btn-active #div-01 {
     border: 1px solid;
@@ -64,6 +65,7 @@
     flex-direction: column;
     box-shadow: 16px 14px 20px #000000;
     overflow: hidden;
+    z-index: 40;
   }
   #navbar .nav-container .burger-link-container .li-container h2 {
     text-align: center;
@@ -71,6 +73,15 @@
     margin-top: 20px;
     font-size: 30px;
     width: 40px;
+  }
+  #navbar .nav-container .burger-link-container .li-container #colorChanger {
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 1s;
+  }
+  #navbar .nav-container .burger-link-container .li-container #colorChanger:active {
+    transform: scale(0.5);
   }
   #navbar .nav-container .burger-link-container .li-container ul {
     flex-direction: column;
@@ -97,6 +108,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    z-index: 40;
   }
   #navbar .nav-container .burger-link-container .li-container-active h2 {
     text-align: center;
@@ -104,6 +116,12 @@
     margin-top: 20px;
     font-size: 30px;
     width: 40px;
+  }
+  #navbar .nav-container .burger-link-container .li-container-active #colorChanger {
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 1s;
   }
   #navbar .nav-container .burger-link-container .li-container-active ul {
     flex-direction: column;
@@ -120,13 +138,5 @@
   #navbar .nav-container .burger-link-container .li-container-active ul li a {
     z-index: 20;
     font-size: 25px;
-  }
-}
-@keyframes rotacion {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
   }
 }/*# sourceMappingURL=navbar.css.map */
