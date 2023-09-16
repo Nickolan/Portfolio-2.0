@@ -38,7 +38,11 @@ $primary-Color: var(--primary-color);
                 -webkit-text-shadow: 0px 0px 30px #fff;
                 text-shadow: 0px 0px 30px #fff;
             }
+            
+        }
+        .HomeWelcome{
             h3{
+                margin-top: 20px;
                 font-size: 30px;
                 color: $primary-Color;
                 -webkit-text-stroke: .5px #fff;

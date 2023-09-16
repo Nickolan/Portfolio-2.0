@@ -5,16 +5,19 @@ import './Home.css'
 
 
 const Home = () => {
-    const {isEnglish, thisColor} = useContext(LeneguageContext);
+    const {isEnglish} = useContext(LeneguageContext);
 
   return (
-    <div className='HomeContent border' >
+    <div className='HomeContent' >
         <div className='HomePresentation '>
             <h2>{isEnglish ? "HELLO👋, I'M" : 'HOLA👋, SOY'}</h2>
             <h1>Nicolas Navarrete</h1>
         </div>
         <div className='HomeBio'>
             <h2>{isEnglish ? "Full Stack Developer" : "Desarrollador Full Stack"}</h2>
+
+        </div>
+        <div className='HomeWelcome'>
 
             <h3>{isEnglish ? "Welcome" : "Bienvenidos"}</h3>
         </div>

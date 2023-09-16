@@ -1,0 +1,79 @@
+@media screen and (max-width: 430px) {
+  .AboutContent {
+    height: 100vh;
+  }
+  .AboutContent .AboutImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutContent .AboutImage #N1 {
+    border: 11px solid var(--primary-color);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 10px;
+  }
+  .AboutContent .AboutImage #N1 #N2 {
+    position: absolute;
+    border: 11px solid var(--primary-color);
+    width: 80%;
+    height: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 20px;
+    animation: contraer 3s linear infinite;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 {
+    width: 90%;
+    height: 90%;
+    border: 11px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 15px;
+    position: absolute;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 .image {
+    background: url("../../../public/images/4.png");
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button img {
+    width: 100%;
+    height: 100%;
+    animation: expand 3s linear infinite;
+    box-shadow: 1px 2px 2px var(--secundary-color), 0 0 5em var(--secundary-color), 0 0 5em var(--secundary-color);
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button .CvButton {
+    background-color: var(--secundary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+  }
+}
+@keyframes expand {
+  50% {
+    transform: scale(1.1);
+  }
+}
+@keyframes contraer {
+  50% {
+    transform: scale(0.98);
+  }
+}/*# sourceMappingURL=About.css.map */

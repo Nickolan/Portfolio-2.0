@@ -37,7 +37,8 @@
     -webkit-text-shadow: 0px 0px 30px #fff;
     text-shadow: 0px 0px 30px #fff;
   }
-  .HomeContent .HomeBio h3 {
+  .HomeContent .HomeWelcome h3 {
+    margin-top: 20px;
     font-size: 30px;
     color: var(--primary-color);
     -webkit-text-stroke: 0.5px #fff;

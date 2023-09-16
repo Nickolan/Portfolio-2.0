@@ -1,0 +1,96 @@
+
+$primary-Color: var(--primary-color);
+$secundary-Color: var(--secundary-color);
+
+// Mobile
+@media screen and (max-width: 430px){
+.AboutContent{
+    height: 100vh;
+    .AboutImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #N1{
+            border: 11px solid $primary-Color;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            padding: 10px;
+            
+            #N2{
+                position: absolute;
+                border: 11px solid $primary-Color;
+                width: 80%;
+                height: 38%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 9999px;
+                padding: 20px;
+                animation: contraer 3s linear infinite;
+                #N3{
+                    width: 90%;
+                    height: 90%;
+                    border: 11px solid $primary-Color;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 9999px;
+                    padding: 15px;
+                    position: absolute;
+                    .image{
+                        background: url('../../../public/images/4.png');
+                    }
+
+                    button{
+                        width: 100%;   
+                        height: 100%;
+                        border-radius: 9999px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            animation: expand 3s linear infinite;
+                            box-shadow: 1px 2px 2px $secundary-Color, 0 0 5em $secundary-Color, 0 0 5em $secundary-Color;;
+                        }
+                        .CvButton{
+                            background-color: $secundary-Color;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: azure;
+                            font-size: 40px;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 9999px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+}
+
+
+@keyframes expand {
+    0%{
+    }
+    50%{
+        
+        transform: scale(1.1);
+    }
+}
+
+@keyframes contraer {
+    0%{
+
+    }
+    50%{
+        transform: scale(0.98);
+    }
+}
