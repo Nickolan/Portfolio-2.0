@@ -24,22 +24,22 @@ export default function Navbar() {
             <div id='colorChanger' onClick={toogleColor} className='rounded-full border w-10 h-10'></div>
             <ul>
               <li>
-                <a>{isEnglish ? 'Home' : 'Inicio'}</a>
+                <a onClick={() => setMenuOpen(false)}  href='#Home'>{isEnglish ? 'Home' : 'Inicio'}</a>
               </li>
               <li>
-                <a>{isEnglish ? 'About Me' : 'Sobre Mi'}</a>
+                <a onClick={() => setMenuOpen(false)}  href='#About'>{isEnglish ? 'About Me' : 'Sobre Mi'}</a>
               </li>
               <li>
-                <a>{isEnglish ? 'Skills' : 'Habilidades'}</a>
+                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Skills' : 'Habilidades'}</a>
               </li>
               <li>
-                <a>{isEnglish ? 'Projects' : 'Proyectos'}</a>
+                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Projects' : 'Proyectos'}</a>
               </li>
               <li>
-                <a>{isEnglish ? 'Certificates' : 'Certificados'}</a>
+                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Certificates' : 'Certificados'}</a>
               </li>
               <li>
-                <a>{isEnglish ? 'Contact Me' : 'Contactame'}</a>
+                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Contact Me' : 'Contactame'}</a>
               </li>
             </ul>
           </div>
