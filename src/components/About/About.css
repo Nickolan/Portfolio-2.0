@@ -98,6 +98,8 @@
   .AboutContent .AboutText {
     width: 90%;
     height: 40%;
+    display: flex;
+    justify-content: center;
   }
   .AboutContent .AboutText .AboutChanger {
     color: #fff;
@@ -113,6 +115,8 @@
     border-radius: 10%;
     padding: 15px;
     color: #ffffff;
+    height: 30rem;
+    width: 100%;
   }
   .AboutContent .AboutText #InfoCode div {
     display: flex;
@@ -137,6 +141,36 @@
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+  .AboutContent .AboutText #InfoText {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    flex-direction: row;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 10%;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI h1 {
+    color: var(--secundary-color);
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI div {
+    width: 80%;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI div h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #eaeaea;
   }
 }
 @keyframes expand {
