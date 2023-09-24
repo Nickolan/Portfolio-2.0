@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
-import profileImage from "../../../public/images/4.png";
 import { LeneguageContext } from "../LenguageContext";
+import profileImage from "../../../public/images/4.png";
 import "./About.css";
 
 const About = () => {

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import BgAnimated from './components/background animated/BgAnimated';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 
 function App() {
   const {thisColor} = useContext(LeneguageContext);
@@ -17,6 +18,7 @@ function App() {
               <Navbar/>
               <Home/>
               <About/>
+              <Skills/>
             </div>
         </div>
   )

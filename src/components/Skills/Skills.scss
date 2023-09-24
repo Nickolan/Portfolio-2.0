@@ -1,0 +1,67 @@
+$primary-Color: var(--primary-color);
+$secundary-Color: var(--secundary-color);
+
+// Mobile
+@media screen and (max-width: 430px){
+    .SkillsContent{
+        height: 100vh;
+        .SkillsTitle{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            h1{
+                color: $primary-Color;
+                font-size: 3.5em;
+                -webkit-text-stroke: 0.5px $secundary-Color;
+                -moz-text-shadow: 0px 0px 30px $secundary-Color;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px $secundary-Color;
+            }
+        }
+    }
+    .SkillsList{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        .techIcon{
+            display: grid;
+            grid-template-columns: 100px 100px;
+            grid-template-columns: 120px 120px;
+            gap: 20px;
+            .techDiv{
+                border: $primary-Color solid 1px;
+                box-shadow: 0px 0px 30px $secundary-Color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .icon{
+                    height: 60px;
+                    color: $primary-Color;
+                }
+                span{
+                    font-size: 20px;
+                    color: white;
+                    -webkit-text-stroke: 0.5px $primary-Color;
+                    -moz-text-shadow: 0px 0px 30px $primary-Color;
+                    -webkit-text-shadow: 0px 0px 30px #fff;
+                    text-shadow: 0px 0px 30px $primary-Color;
+                }
+            }
+            .techDiv:hover{
+                background: $primary-Color;
+                .icon{
+                    color: $secundary-Color;
+                }
+                span{
+                    color: $secundary-Color;
+                    -webkit-text-stroke: 0.5px $secundary-Color;
+                    -moz-text-shadow: 0px 0px 30px $secundary-Color;
+                    -webkit-text-shadow: 0px 0px 30px #fff;
+                    text-shadow: 0px 0px 30px $secundary-Color;
+                }
+            }
+        }
+    }
+}

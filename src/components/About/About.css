@@ -1,6 +1,5 @@
 @media screen and (max-width: 430px) {
   .AboutContent {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -100,6 +99,7 @@
     height: 40%;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
   }
   .AboutContent .AboutText .AboutChanger {
     color: #fff;
