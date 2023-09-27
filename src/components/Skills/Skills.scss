@@ -4,7 +4,7 @@ $secundary-Color: var(--secundary-color);
 // Mobile
 @media screen and (max-width: 430px){
     .SkillsContent{
-        height: 100vh;
+        margin: 50px 0;
         .SkillsTitle{
             display: flex;
             justify-content: center;
@@ -61,6 +61,17 @@ $secundary-Color: var(--secundary-color);
                     -webkit-text-shadow: 0px 0px 30px #fff;
                     text-shadow: 0px 0px 30px $secundary-Color;
                 }
+            }
+            #inProgress::after{
+                content: 'In Progress';
+                font-size: 12px;
+                position: absolute;
+                background-color: $secundary-Color;
+                color: white;
+                margin: 0 0 75px 75px;
+                text-align: center;
+                rotate: 20deg;
+                width: 17%;
             }
         }
     }

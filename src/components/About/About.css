@@ -11,12 +11,12 @@
     margin-bottom: 20px;
   }
   .AboutContent .AboutTitle h1 {
-    color: var(--secundary-color);
+    color: var(--primary-color);
     font-size: 3.5em;
-    -webkit-text-stroke: 0.5px var(--primary-color);
-    -moz-text-shadow: 0px 0px 30px var(--primary-color);
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
     -webkit-text-shadow: 0px 0px 30px #fff;
-    text-shadow: 0px 0px 30px var(--primary-color);
+    text-shadow: 0px 0px 30px var(--secundary-color);
   }
   .AboutContent .AboutImage {
     display: flex;
@@ -99,7 +99,7 @@
     height: 40%;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .AboutContent .AboutText .AboutChanger {
     color: #fff;
@@ -117,6 +117,8 @@
     color: #ffffff;
     height: 30rem;
     width: 100%;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 20px var(--secundary-color);
   }
   .AboutContent .AboutText #InfoCode div {
     display: flex;
@@ -158,6 +160,8 @@
     flex-direction: column;
     height: 100%;
     border-radius: 10%;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 20px var(--secundary-color);
   }
   .AboutContent .AboutText #InfoText #WhoAmI h1 {
     color: var(--secundary-color);

@@ -148,7 +148,7 @@ const About = () => {
           </div>
         ) : (
           <div id="InfoText">
-            <div id="WhoAmI" className="border">
+            <div id="WhoAmI">
               <h1>{isEnglish ? "Who am I?" : "Quien soy?"}</h1>
               <div>
                 {isEnglish ? (

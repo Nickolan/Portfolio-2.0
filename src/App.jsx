@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import BgAnimated from './components/background animated/BgAnimated';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
 
 function App() {
   const {thisColor} = useContext(LeneguageContext);
@@ -19,6 +20,7 @@ function App() {
               <Home/>
               <About/>
               <Skills/>
+              <Projects/>
             </div>
         </div>
   )

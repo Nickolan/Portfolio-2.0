@@ -30,7 +30,7 @@ export default function Navbar() {
                 <a onClick={() => setMenuOpen(false)}  href='#About'>{isEnglish ? 'About Me' : 'Sobre Mi'}</a>
               </li>
               <li>
-                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Skills' : 'Habilidades'}</a>
+                <a onClick={() => setMenuOpen(false)} href='#Skills' >{isEnglish ? 'Skills' : 'Habilidades'}</a>
               </li>
               <li>
                 <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Projects' : 'Proyectos'}</a>

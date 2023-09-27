@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-import faMongoDB from "../../../public/icons/mongodb-icon.svg";
 import { LeneguageContext } from "../LenguageContext";
 import { 
   faHtml5,
@@ -44,10 +43,11 @@ const Skills = () => {
             <div className="techDiv"><FontAwesomeIcon className="icon" icon={faBootstrap} /><span>BOOTSTRAP</span></div>
             <div className="techDiv"><FontAwesomeIcon className="icon" icon={faGithub} /><span>GITHUB</span></div>
             <div className="techDiv"><FontAwesomeIcon className="icon" icon={faNodeJs} /><span>NODEJS</span></div>
-            <div className="techDiv"><FontAwesomeIcon className="icon" icon={faDocker} /><span>DOCKER</span></div>
+            <div className="techDiv"><span>Express</span></div>
             <div className="techDiv"><FontAwesomeIcon className="icon" icon={faDatabase} /><span>SQL</span></div>
             <div className="techDiv"><span>MongoDB</span></div>
-            <div className="techDiv"><FontAwesomeIcon className="icon" icon={faJava} /><span>JAVA</span></div>
+            <div id="inProgress" className="techDiv"><FontAwesomeIcon className="icon" icon={faDocker} /><span>DOCKER</span></div>
+            <div id="inProgress" className="techDiv"><FontAwesomeIcon className="icon" icon={faJava} /><span>JAVA</span></div>
         </div>
       </div>
     </div>
