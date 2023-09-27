@@ -78,7 +78,7 @@ const About = () => {
               <div>
                 <span id="text1">{isEnglish ? "age" : "edad"}</span>{" "}
                 <span id="keywords">:</span>{" "}
-                <span id="strings">{`'${age}'`},</span>
+                <span id="int">{`${age}`},</span>
               </div>
               <div>
                 <span id="text1">{isEnglish ? "country" : "pais"}</span>{" "}

@@ -139,6 +139,9 @@
   .AboutContent .AboutText #InfoCode div #simbols {
     color: var(--primary-color);
   }
+  .AboutContent .AboutText #InfoCode div #int {
+    color: #aa36b7;
+  }
   .AboutContent .AboutText #InfoCode #AboutObject {
     display: flex;
     flex-direction: column;
