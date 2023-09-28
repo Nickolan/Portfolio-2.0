@@ -1,0 +1,23 @@
+$primary-Color: var(--primary-color);
+$secundary-Color: var(--secundary-color);
+
+// Mobile
+@media screen and (max-width: 430px){
+    .ContactContent{
+        margin: 50px 0;
+
+        .ContactTitle{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            h1{
+                color: $primary-Color;
+                font-size: 3.5em;
+                -webkit-text-stroke: 0.5px $secundary-Color;
+                -moz-text-shadow: 0px 0px 30px $secundary-Color;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px $secundary-Color;
+            }
+        }
+    }
+}

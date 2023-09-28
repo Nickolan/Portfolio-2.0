@@ -1,0 +1,18 @@
+@media screen and (max-width: 430px) {
+  .ContactContent {
+    margin: 50px 0;
+  }
+  .ContactContent .ContactTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .ContactContent .ContactTitle h1 {
+    color: var(--primary-color);
+    font-size: 3.5em;
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+}/*# sourceMappingURL=Contact.css.map */
