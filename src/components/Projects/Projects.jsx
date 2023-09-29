@@ -45,13 +45,15 @@ const Projects = () => {
               <FontAwesomeIcon className="icon" icon={faDatabase} />
               <span className="icon">Express</span>
             </div>
-            <div className="text-white" id="ProjectInfo">
+            <div id="ProjectInfo">
               <h3 >{isEnglish ? "Tasks" : "Tareas"}</h3>
               
-              <li>{isEnglish ? "" : "Diseño e implementacion de base de datos mediante Sequelize(ORM)"}</li>
-              <li>{isEnglish ? "" : "Manejo De APIs, conexion al servidor y manejo de rutas para edicion de la base de datos"}</li>
-              <li>{isEnglish ? "" : "Diseño e implementacion de base de datos mediante Sequelize(ORM)"}</li>
-
+              <li>{isEnglish ? "Database design and implementation using Sequelize(ORM)" : "Diseño e implementacion de base de datos mediante Sequelize(ORM)"}</li>
+              <li>{isEnglish ? "Management of APIs, connection to the server and configuration of routes for editing in the database" : "Manejo De APIs, conexion al servidor y configuracion de rutas para edicion en la base de datos"}</li>
+              <li>{isEnglish ? "Design and development of component views" : "Diseño y desarrollo de vistas de componentes"}</li>
+              <li>{isEnglish ? "Logic of filters by temperaments and ordering by weight and breed name" : "Logica de filtros mediante temperamentos y ordenamiento por peso y nombre de raza"}</li>
+              <li>{isEnglish ? "Paging and search bar configuration" : "Configuracion de paginado y barra de busqueda"}</li>
+              <li>{isEnglish ? "Design and development of form for dog breed creation" : "Diseño y desarrollo de formulario para la creacion de raza canina"}</li>
             </div>
             <div id="ProjectLinks">
               <div id="Repositories">
@@ -83,17 +85,25 @@ const Projects = () => {
               <FontAwesomeIcon className="icon" icon={faGithub} />
             </div>
             <div id="ProjectInfo">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos cumque, eum sed officiis similique ab aspernatur hic sint unde ut, esse perspiciatis vitae voluptatum quibusdam dolorum! Dicta ex repellendus harum?</p>
+              <h3 >{isEnglish ? "Tasks" : "Tareas"}</h3>
+              
+              <li>{isEnglish ? "Web site view design and development" : "Diseño y desarrollo de la vista del siti web"}</li>
+              <li>{isEnglish ? "Design, development and configuration of the administrative panel" : "Diseño, desarrollo y configuracion del panel administrativo"}</li>
+              <li>{isEnglish ? "Design and development of the form for adding products" : "Diseño y desarrollo del formulario para el agregado de productos"}</li>
+              <li>{isEnglish ? "Product logic and individual views" : "Logica de los productos y sus vistas individuales"}</li>
+              <li>{isEnglish ? "Correction of server side errors" : "Corrección de errores del lado del servidor"}</li>
+              <li>{isEnglish ? "Code cleaning and modularization" : "Limpieza de codigo y modularizacion"}</li>
+              <li>{isEnglish ? "Registration form and start session with Auth0" : "Formulario de registro e inicio de sesion con Auth0"}</li>
             </div>
             <div id="ProjectLinks">
               <div id="Repositories">
                 <div>
-                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/FindYourPerrito-Client">Client</a></button>
-                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/FindYourPerrito-Server">Server</a></button>
+                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/Books4All-Front">Client</a></button>
+                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/Books4All-Back">Server</a></button>
                 </div>
               </div>
               <div id="Deploy">
-                <button><FontAwesomeIcon className="icon" icon={faLink} /><a href="https://find-your-perrito-client.vercel.app">Deploy</a></button>
+                <button><FontAwesomeIcon className="icon" icon={faLink} /><a href="https://books4-all-front.vercel.app">Deploy</a></button>
               </div>
             </div>
           </div>
@@ -112,7 +122,12 @@ const Projects = () => {
               <FontAwesomeIcon className="icon" icon={faReact} />
             </div>
             <div id="ProjectInfo">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos cumque, eum sed officiis similique ab aspernatur hic sint unde ut, esse perspiciatis vitae voluptatum quibusdam dolorum! Dicta ex repellendus harum?</p>
+              <h3 >{isEnglish ? "Tasks" : "Tareas"}</h3>
+              
+              <li>{isEnglish ? "Design, development and configuration of the clock and progress bar" : "Diseño, desarrollo y configuracion del reloj y barra de progreso"}</li>
+              <li>{isEnglish ? "Development of the clock configuration panel to select use time and stage background" : "Desarrollo del panel de configuracion del reloj para seleccionar tiempo de uso y fondo de escenario"}</li>
+              <li>{isEnglish ? "Mobile design and adaptation" : "Diseño y adaptacion mobile"}</li>
+              <li>{isEnglish ? "Configuration for background scenario concerning the schedule" : "Configuracion para escenario de fondo referente al horario"}</li>
             </div>
             <div id="ProjectLinks">
               <div id="Repositories">
@@ -143,17 +158,26 @@ const Projects = () => {
               <span className="icon">MySQL</span>
             </div>
             <div id="ProjectInfo">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos cumque, eum sed officiis similique ab aspernatur hic sint unde ut, esse perspiciatis vitae voluptatum quibusdam dolorum! Dicta ex repellendus harum?</p>
+              <h3 >{isEnglish ? "Tasks" : "Tareas"}</h3>
+              
+              <li>{isEnglish ? "" : "Implementacion y configuracion del servidor mediante el uso de NestJS"}</li>
+              <li>{isEnglish ? "" : "Diseño e implementacion de base de datos y sus modelos en MySQL"}</li>
+              <li>{isEnglish ? "" : "Configuracion de rutas para la modificacion en la base de datos"}</li>
+              <li>{isEnglish ? "" : "Diseño y desarrolo de vistas y secciones de elementos"}</li>
+              <li>{isEnglish ? "" : "Manejo y conexion de componente y sus vistas"}</li>
+              <li>{isEnglish ? "" : "Formulario para la creacion de planetas y satelites"}</li>
+              <li>{isEnglish ? "" : "Formulario para registro de usuarios e inicio de sesion"}</li>
+              <li>{isEnglish ? "" : "Configuracion de la barra de busqueda"}</li>
             </div>
             <div id="ProjectLinks">
               <div id="Repositories">
                 <div>
-                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/FindYourPerrito-Client">Client</a></button>
-                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/FindYourPerrito-Server">Server</a></button>
+                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/Across-Space">Client</a></button>
+                  <button><FontAwesomeIcon className="icon" icon={faGithub} /><a href="https://github.com/Nickolan/Across-Space-Server">Server</a></button>
                 </div>
               </div>
               <div id="Deploy">
-                <button><FontAwesomeIcon className="icon" icon={faLink} /><a href="https://find-your-perrito-client.vercel.app">Deploy</a></button>
+                <button><FontAwesomeIcon className="icon" icon={faLink} /><a href="https://across-space.vercel.app">Deploy</a></button>
               </div>
             </div>
           </div>

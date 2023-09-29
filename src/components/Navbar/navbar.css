@@ -58,8 +58,8 @@
     transition: 0.7s;
     left: 0;
     top: 0;
-    background-image: url("https://wallpapers.com/images/featured/high-resolution-blue-background-g09nt3i1k5w4dpc1.jpg");
     width: 100vw;
+    border: solid 10px var(--secundary-color);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,6 @@
     transition: 0.7s;
     left: 0;
     top: -100vh;
-    background-image: url("https://wallpapers.com/images/featured/high-resolution-blue-background-g09nt3i1k5w4dpc1.jpg");
     width: 100vw;
     height: 100vh;
     display: flex;

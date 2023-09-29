@@ -15,4 +15,25 @@
     -webkit-text-shadow: 0px 0px 30px #fff;
     text-shadow: 0px 0px 30px var(--secundary-color);
   }
+  .ContactContent #ContactLinks {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .ContactContent #ContactLinks a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4%;
+    margin-top: 10px;
+    height: 80px;
+    border: var(--primary-color) solid 4px;
+    box-shadow: 0px 0px 15px var(--primary-color);
+    background-color: var(--secundary-color);
+  }
+  .ContactContent #ContactLinks a .icon {
+    height: 50px;
+    color: white;
+  }
 }/*# sourceMappingURL=Contact.css.map */

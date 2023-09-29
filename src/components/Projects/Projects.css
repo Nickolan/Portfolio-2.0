@@ -65,8 +65,6 @@
   }
   .ProjectsContent #ProjectsList #ProjectItem #ProjectInfo {
     margin-top: 20px;
-  }
-  .ProjectsContent #ProjectsList #ProjectItem #ProjectInfo p {
     color: var(--primary-color);
   }
   .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks {

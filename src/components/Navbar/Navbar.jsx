@@ -36,10 +36,7 @@ export default function Navbar() {
                 <a onClick={() => setMenuOpen(false)} href='#Projects' >{isEnglish ? 'Projects' : 'Proyectos'}</a>
               </li>
               <li>
-                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Certificates' : 'Certificados'}</a>
-              </li>
-              <li>
-                <a onClick={() => setMenuOpen(false)} >{isEnglish ? 'Contact Me' : 'Contactame'}</a>
+                <a onClick={() => setMenuOpen(false)} href='#Contact' >{isEnglish ? 'Contact Me' : 'Contactame'}</a>
               </li>
             </ul>
           </div>
