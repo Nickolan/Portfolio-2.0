@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    z-index: 40;
   }
   .AboutContent .AboutTitle {
     display: flex;
@@ -95,6 +96,7 @@
     border: #ffffff dashed 2px;
   }
   .AboutContent .AboutText {
+    z-index: 70;
     width: 90%;
     height: 40%;
     display: flex;
@@ -102,6 +104,7 @@
     margin-top: 30px;
   }
   .AboutContent .AboutText .AboutChanger {
+    z-index: 60;
     color: #fff;
     position: absolute;
     right: 2.5em;
@@ -111,6 +114,7 @@
     margin-top: 15px;
   }
   .AboutContent .AboutText #InfoCode {
+    z-index: 50;
     background-color: rgba(65, 73, 140, 0.3607843137);
     border-radius: 10%;
     padding: 15px;

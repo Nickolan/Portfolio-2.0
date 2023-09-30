@@ -1,15 +1,13 @@
 $primary-Color: var(--primary-color);
 
-.container{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+
     .bubbles{
         display: flex;
-
+        justify-self: center;
+        justify-content: space-between;
+        z-index: -10;
+        position: fixed;
         span{
-            position: relative;
             width: 30px;
             height: 30px;
             background: $primary-Color;
@@ -28,7 +26,6 @@ $primary-Color: var(--primary-color);
             background: $primary-Color;
         }
     }
-}
 
 @keyframes animate{
     0%{

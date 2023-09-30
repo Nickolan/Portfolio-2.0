@@ -1,14 +1,11 @@
-.container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-.container .bubbles {
+.bubbles {
   display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  z-index: -10;
+  position: fixed;
 }
-.container .bubbles span {
-  position: relative;
+.bubbles span {
   width: 30px;
   height: 30px;
   background: var(--primary-color);
@@ -17,7 +14,7 @@
   animation: animate 15s linear infinite;
   animation-duration: calc(120s / var(--i));
 }
-.container .bubbles span:nth-child(even) {
+.bubbles span:nth-child(even) {
   box-shadow: 0 0 0 10px rgba(79, 195, 220, 0.2666666667), 0 0 50px var(--primary-color), 0 0 100px var(--primary-color);
   background: var(--primary-color);
 }

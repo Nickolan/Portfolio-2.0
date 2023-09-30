@@ -4,6 +4,7 @@ $secundary-Color: var(--secundary-color);
 // Mobile
 @media screen and (max-width: 430px){
     .ProjectsContent{
+        z-index: 0;
         margin: 50px 0;
         display: flex;
         align-items: center;
@@ -67,6 +68,7 @@ $secundary-Color: var(--secundary-color);
                     }
                 }
                 #ProjectInfo{
+                    
                     margin-top: 20px;
                     color: $primary-Color;
                 }
