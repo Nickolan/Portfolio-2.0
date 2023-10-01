@@ -184,6 +184,194 @@
     color: #eaeaea;
   }
 }
+@media screen and (min-width: 1024px) {
+  .AboutContent {
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .AboutContent .AboutTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .AboutContent .AboutTitle h1 {
+    color: var(--primary-color);
+    font-size: 4.5em;
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+  .AboutContent .AboutImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .AboutContent .AboutImage #N1 {
+    border: 11px solid var(--primary-color);
+    width: 35em;
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 10px;
+  }
+  .AboutContent .AboutImage #N1 #N2 {
+    position: absolute;
+    border: 11px solid var(--primary-color);
+    width: 31em;
+    height: 31em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 20px;
+    animation: contraer 3s linear infinite;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 {
+    width: 90%;
+    height: 90%;
+    border: 11px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 15px;
+    position: absolute;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 .image {
+    background: url("../../../public/images/4.png");
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button img {
+    width: 100%;
+    height: 100%;
+    animation: expand 3s linear infinite;
+    box-shadow: 1px 2px 2px var(--secundary-color), 0 0 5em var(--secundary-color), 0 0 5em var(--secundary-color);
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button .CvButton {
+    background-color: var(--secundary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+  }
+  .AboutContent .AboutImage #N1 #N2 #N3 button .CvButton a {
+    background-color: #000000;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.8274509804);
+    animation: colorDisolution 5s linear infinite;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: #ffffff dashed 2px;
+  }
+  .AboutContent .AboutText {
+    z-index: 70;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .AboutContent .AboutText .AboutChanger {
+    z-index: 60;
+    color: #fff;
+    position: absolute;
+    right: 38em;
+    background-color: var(--secundary-color);
+    border-radius: 20%;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .AboutContent .AboutText #InfoCode {
+    z-index: 50;
+    background-color: rgba(65, 73, 140, 0.3607843137);
+    border-radius: 3%;
+    padding: 2em 5em;
+    color: #ffffff;
+    height: 30rem;
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 20px var(--secundary-color);
+  }
+  .AboutContent .AboutText #InfoCode div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 18px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .AboutContent .AboutText #InfoCode div #text1 {
+    color: #eaeaea;
+  }
+  .AboutContent .AboutText #InfoCode div #keywords {
+    color: var(--secundary-color);
+  }
+  .AboutContent .AboutText #InfoCode div #strings {
+    color: #dccf67;
+  }
+  .AboutContent .AboutText #InfoCode div #simbols {
+    color: var(--primary-color);
+  }
+  .AboutContent .AboutText #InfoCode div #int {
+    color: #aa36b7;
+  }
+  .AboutContent .AboutText #InfoCode #AboutObject {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .AboutContent .AboutText #InfoText {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    flex-direction: row;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 3%;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 0px 20px var(--secundary-color);
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI h1 {
+    color: var(--secundary-color);
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI div {
+    width: 80%;
+  }
+  .AboutContent .AboutText #InfoText #WhoAmI div h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #eaeaea;
+  }
+}
 @keyframes expand {
   50% {
     transform: scale(1.1);

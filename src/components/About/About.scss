@@ -203,6 +203,211 @@ $secundary-Color: var(--secundary-color);
 }
 }
 
+// Monitor
+@media screen and (min-width: 1024px){
+    .AboutContent{
+        border: 1px solid #ccc;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .AboutTitle{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            h1{
+                color: $primary-Color;
+                font-size: 4.5em;
+                -webkit-text-stroke: 0.5px $secundary-Color;
+                -moz-text-shadow: 0px 0px 30px $secundary-Color;
+                -webkit-text-shadow: 0px 0px 30px #fff;
+                text-shadow: 0px 0px 30px $secundary-Color;
+            }
+        }
+        .AboutImage{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            #N1{
+                border: 11px solid $primary-Color;
+                width: 35em;
+                height: 35em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 9999px;
+                padding: 10px;
+                
+                #N2{
+                    position: absolute;
+                    border: 11px solid $primary-Color;
+                    width: 31em;
+                    height: 31em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 9999px;
+                    padding: 20px;
+                    animation: contraer 3s linear infinite;
+                    #N3{
+                        width: 90%;
+                        height: 90%;
+                        border: 11px solid $primary-Color;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 9999px;
+                        padding: 15px;
+                        position: absolute;
+                        .image{
+                            background: url('../../../public/images/4.png');
+                        }
+    
+                        button{
+                            width: 100%;   
+                            height: 100%;
+                            border-radius: 9999px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                animation: expand 3s linear infinite;
+                                box-shadow: 1px 2px 2px $secundary-Color, 0 0 5em $secundary-Color, 0 0 5em $secundary-Color;;
+                            }
+                            .CvButton{
+                                background-color: $secundary-Color;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: azure;
+                                font-size: 40px;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 9999px;
+    
+                                a{
+                                    background-color: #000000;
+                                    width: 100px;
+                                    color: #ffffffd3;
+                                    animation: colorDisolution 5s linear infinite ;
+                                    border-radius: 9999px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 100px;
+                                    border: #ffffff dashed 2px;
+                                }
+    
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .AboutText{
+            z-index: 70;
+            width: 40%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+    
+            .AboutChanger{
+                z-index: 60;
+                color: #fff;
+                position: absolute;
+                right: 38em;
+                background-color: $secundary-Color;
+                border-radius: 20%;
+                padding: 5px;
+                margin-top: 15px;
+            }
+            
+            #InfoCode{
+                z-index: 50;
+                background-color: #41498c5c;
+                border-radius: 3%;
+                padding: 2em 5em;
+
+                color: #ffffff;
+                height: 30rem;
+                width: 100%;
+                border: 1px solid $primary-Color;
+                box-shadow: 0px 0px 20px $secundary-Color;
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 0.5rem;
+                    font-size: 18px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+                    #text1{
+                        color: #eaeaea
+                    }
+                    #keywords{
+                        color: $secundary-Color;
+                    }
+    
+                    #strings{
+                        color: #dccf67;
+                    }
+    
+                    #simbols{
+                        color: $primary-Color;
+                    }
+                    #int{
+                        color: #aa36b7;
+                    }
+                }
+                #AboutObject{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0;
+                }
+            }
+            #InfoText{
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                width: 100%;
+                height: 30em;
+                
+                flex-direction: row;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+                #WhoAmI{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    height: 100%;
+                    border-radius: 3%;
+                    border: 1px solid $primary-Color;
+                    box-shadow: 0px 0px 20px $secundary-Color;
+                    h1{
+                        color: $secundary-Color;
+                        font-size: 2rem;
+                        margin: 15px 0px;
+                        
+                    }
+                    div{
+                        width: 80%;
+                        
+                        h2{
+                            font-size: 1.2rem;
+                            text-align: center;
+                            color: #eaeaea;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @keyframes expand {
     0%{

@@ -59,7 +59,7 @@ $primary-Color: var(--primary-color);
 // Monitor
 @media screen and (min-width: 1024px){
     .HomeContent{
-        margin-top: -30px;
+        margin-top: 30px;
         display: flex;
         text-align: center;
         flex-direction: column;

@@ -14,15 +14,17 @@ export default function Navbar() {
     <nav id='navbar'>
       <div className='nav-container'>
         <div className='burger-link-container '>
-          <button className={!menuOpen ? 'btn-active' : 'btn'} onClick={openBrugerNavbar}>
+          <button id='buttonChanger' className={!menuOpen ? 'btn-active' : 'btn'} onClick={openBrugerNavbar}>
             <div id='div-01'></div>
             <div id='div-02'></div>
             <div id='div-03'></div>
           </button>
-          <div className={!menuOpen ? 'li-container-active' : 'li-container'}>
-            <h2 onClick={toogleLenguage}>{isEnglish ? 'En' : 'Es'}</h2>
-            <div id='colorChanger' onClick={toogleColor} className='rounded-full border w-10 h-10'></div>
-            <ul>
+          <div id='navList' className={!menuOpen ? 'li-container-active' : 'li-container'}>
+            <div id='configEnv'>
+              <h2 id='lenguageChanger' onClick={toogleLenguage}>{isEnglish ? 'En' : 'Es'}</h2>
+              <div id='colorChanger' onClick={toogleColor} className='rounded-full border w-10 h-10'></div>
+            </div>
+            <ul id='seccionChanger'>
               <li>
                 <a onClick={() => setMenuOpen(false)}  href='#Home'>{isEnglish ? 'Home' : 'Inicio'}</a>
               </li>
