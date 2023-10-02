@@ -191,7 +191,6 @@ $secundary-Color: var(--secundary-color);
     #navbar{
         .nav-container{
             .burger-link-container{
-                color: white;
                 background: linear-gradient(to bottom, $secundary-Color 15%, #00000010 90%);
                 transition: 1s;
                 #buttonChanger{
@@ -213,9 +212,15 @@ $secundary-Color: var(--secundary-color);
                         justify-content: space-between;
                         #lenguageChanger{
                             font-size: 2rem;
+                            border-radius: 9999px;
+                            background: linear-gradient(to top, #00000010 15%, #000000db 90%);
                             color: $primary-Color;
                             padding: 5px 10px;
-                            border: 1px solid $secundary-Color;
+                            -webkit-text-stroke: 0.5px $primary-Color;
+                            -moz-text-shadow: 0px 0px 30px $primary-Color;
+                            -webkit-text-shadow: 0px 0px 30px $primary-Color;
+                            text-shadow: 0px 0px 50px $primary-Color;
+                            transition: 1s;
                         }
                         #lenguageChanger:hover{
                             cursor: pointer;

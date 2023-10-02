@@ -163,7 +163,6 @@
 }
 @media screen and (min-width: 1024px) {
   #navbar .nav-container .burger-link-container {
-    color: white;
     background: linear-gradient(to bottom, var(--secundary-color) 15%, rgba(0, 0, 0, 0.062745098) 90%);
     transition: 1s;
   }
@@ -188,9 +187,15 @@
   }
   #navbar .nav-container .burger-link-container #navList #configEnv #lenguageChanger {
     font-size: 2rem;
+    border-radius: 9999px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.062745098) 15%, rgba(0, 0, 0, 0.8588235294) 90%);
     color: var(--primary-color);
     padding: 5px 10px;
-    border: 1px solid var(--secundary-color);
+    -webkit-text-stroke: 0.5px var(--primary-color);
+    -moz-text-shadow: 0px 0px 30px var(--primary-color);
+    -webkit-text-shadow: 0px 0px 30px var(--primary-color);
+    text-shadow: 0px 0px 50px var(--primary-color);
+    transition: 1s;
   }
   #navbar .nav-container .burger-link-container #navList #configEnv #lenguageChanger:hover {
     cursor: pointer;
