@@ -1,5 +1,9 @@
 import React, { useState, useContext } from "react";
 import { LeneguageContext } from "../LenguageContext";
+import acrossSpace from "../../../public/Projectsimg/Across-Space.png"
+import studyWithpomo from "../../../public/Projectsimg/SWP1.png"
+import books4All from "../../../public/Projectsimg/B4A1.png";
+import findYourPerrito from "../../../public/Projectsimg/FYP.png"
 import { 
   faHtml5,
   faCss3Alt,
@@ -31,7 +35,7 @@ const Projects = () => {
       <div id="ProjectsList">
           <div id="ProjectItem">
             <div id="ProjectImage">
-              <img src="../../../public/Projectsimg/FYP.JPG" alt="" />
+              <img src={findYourPerrito} alt="FYPimage" />
             </div>
             <div id="ProjectTitle">
               <h1>Find Your Perrito</h1>
@@ -69,7 +73,7 @@ const Projects = () => {
           </div>
           <div id="ProjectItem">
             <div id="ProjectImage">
-              <img src="../../../public/Projectsimg/B4A1.JPG" alt="" />
+              <img src={books4All} alt="B4Aimage" />
             </div>
             <div id="ProjectTitle">
               <h1>Books 4 All</h1>
@@ -109,7 +113,7 @@ const Projects = () => {
           </div>
           <div id="ProjectItem">
             <div id="ProjectImage">
-              <img src="../../../public/Projectsimg/SWP1.JPG" alt="" />
+              <img src={studyWithpomo} alt="SWPimage" />
             </div>
             <div id="ProjectTitle">
               <h1>Study With Pomo</h1>
@@ -142,7 +146,7 @@ const Projects = () => {
           </div>
           <div id="ProjectItem">
             <div id="ProjectImage">
-              <img src="../../../public/Projectsimg/Across Space.JPG" alt="" />
+              <img src={acrossSpace} alt="ASimage" />
             </div>
             <div id="ProjectTitle">
               <h1>Across Space</h1>
