@@ -28,12 +28,8 @@ const About = () => {
                 ) : (
                   <div className="CvButton">
                     <a
-                      download={
-                        isEnglish
-                          ? "Cv-Navarrete-Nicolas_Eng"
-                          : "Cv-Navarrete-Nicolas_Esp"
-                      }
-                      href={isEnglish ? pdfUrlEnglish : pdfUrlSpanish}
+                      target="_blank"
+                      href={isEnglish ? 'https://drive.google.com/file/d/1KmN2qRDyib-iKDx60P-5uOyWwZteHk-6/view?usp=sharing' : 'https://drive.google.com/file/d/1S6Isv-G7N45eHgzdlDdFCiOwwT9iJfgV/view?usp=sharing'}
                     >
                       CV
                     </a>

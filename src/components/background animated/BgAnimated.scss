@@ -8,6 +8,7 @@ $secundary-Color: var(--secundary-color);
         z-index: -10;
         position: fixed;
         span{
+            transition: 1s;
             width: 30px;
             height: 30px;
             background: $primary-Color;
@@ -20,6 +21,7 @@ $secundary-Color: var(--secundary-color);
         }
 
         span:nth-child(even){
+            transition: 1s;
             box-shadow: 0 0 0 10px #4fc3dc44,
             0 0 50px $primary-Color,
             0 0 100px $primary-Color;

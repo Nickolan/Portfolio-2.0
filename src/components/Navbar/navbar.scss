@@ -71,7 +71,7 @@ $secundary-Color: var(--secundary-color);
 
                 .li-container {
                     position: absolute;
-                    transition: .7s;
+                    transition: 1s;
                     left: 0;
                     top: 0;
                     width: 100vw;
@@ -89,7 +89,7 @@ $secundary-Color: var(--secundary-color);
                         margin-top: 20px;
                         font-size: 30px;
                         width: 40px;
-                        
+                        transition: 1s;
                     }
                     #colorChanger{
                         background-color: $primary-Color;
@@ -113,6 +113,7 @@ $secundary-Color: var(--secundary-color);
                             list-style: none;
                             text-align: center;
                             a {
+                                transition: 1s;
                                 padding: 10px;
                                 border: 1px solid #000;
                                 border-radius: 9999px;
@@ -191,11 +192,13 @@ $secundary-Color: var(--secundary-color);
         .nav-container{
             .burger-link-container{
                 color: white;
-                    background: linear-gradient(to bottom, $secundary-Color 15%, #00000010 90%);
+                background: linear-gradient(to bottom, $secundary-Color 15%, #00000010 90%);
+                transition: 1s;
                 #buttonChanger{
                     display: none;
                 }
                 #navList{
+                    transition: 1s;
                     box-shadow: -10px -300px 20px $secundary-Color;
                     display: flex;
                     flex-direction: row;
@@ -210,6 +213,12 @@ $secundary-Color: var(--secundary-color);
                         justify-content: space-between;
                         #lenguageChanger{
                             font-size: 2rem;
+                            color: $primary-Color;
+                            padding: 5px 10px;
+                            border: 1px solid $secundary-Color;
+                        }
+                        #lenguageChanger:hover{
+                            cursor: pointer;
                         }
                         #colorChanger{
                             background-color: $primary-Color;

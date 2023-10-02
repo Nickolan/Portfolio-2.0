@@ -160,14 +160,14 @@ const Projects = () => {
             <div id="ProjectInfo">
               <h3 >{isEnglish ? "Tasks" : "Tareas"}</h3>
               
-              <li>{isEnglish ? "" : "Implementacion y configuracion del servidor mediante el uso de NestJS"}</li>
-              <li>{isEnglish ? "" : "Diseño e implementacion de base de datos y sus modelos en MySQL"}</li>
-              <li>{isEnglish ? "" : "Configuracion de rutas para la modificacion en la base de datos"}</li>
-              <li>{isEnglish ? "" : "Diseño y desarrolo de vistas y secciones de elementos"}</li>
-              <li>{isEnglish ? "" : "Manejo y conexion de componente y sus vistas"}</li>
-              <li>{isEnglish ? "" : "Formulario para la creacion de planetas y satelites"}</li>
-              <li>{isEnglish ? "" : "Formulario para registro de usuarios e inicio de sesion"}</li>
-              <li>{isEnglish ? "" : "Configuracion de la barra de busqueda"}</li>
+              <li>{isEnglish ? "Implementation and configuration of the server using NestJS" : "Implementacion y configuracion del servidor mediante el uso de NestJS"}</li>
+              <li>{isEnglish ? "Design and implementation of database and its models in MySQL" : "Diseño e implementacion de base de datos y sus modelos en MySQL"}</li>
+              <li>{isEnglish ? "Configuration of routes for database modification" : "Configuracion de rutas para la modificacion en la base de datos"}</li>
+              <li>{isEnglish ? "Design and development of views and sections of elements" : "Diseño y desarrolo de vistas y secciones de elementos"}</li>
+              <li>{isEnglish ? "Component and views handling" : "Manejo y conexion de componente y sus vistas"}</li>
+              <li>{isEnglish ? "Planet and satellite creation form" : "Formulario para la creacion de planetas y satelites"}</li>
+              <li>{isEnglish ? "User registration form and session start" : "Formulario para registro de usuarios e inicio de sesion"}</li>
+              <li>{isEnglish ? "Configuration of the search bar" : "Configuracion de la barra de busqueda"}</li>
             </div>
             <div id="ProjectLinks">
               <div id="Repositories">

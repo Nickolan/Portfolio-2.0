@@ -17,7 +17,6 @@ const BgAnimated = () => {
         <span style={{ "--i": 13 }}></span>
         <span style={{ "--i": 16 }}></span>
         <span style={{ "--i": 11 }}></span>
-        <span style={{ "--i": 12 }}></span>
       </div>
   )
 }

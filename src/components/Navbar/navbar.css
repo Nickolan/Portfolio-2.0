@@ -55,7 +55,7 @@
   }
   #navbar .nav-container .burger-link-container .li-container {
     position: absolute;
-    transition: 0.7s;
+    transition: 1s;
     left: 0;
     top: 0;
     width: 100vw;
@@ -73,6 +73,7 @@
     margin-top: 20px;
     font-size: 30px;
     width: 40px;
+    transition: 1s;
   }
   #navbar .nav-container .burger-link-container .li-container #colorChanger {
     background-color: var(--primary-color);
@@ -97,6 +98,7 @@
     text-align: center;
   }
   #navbar .nav-container .burger-link-container .li-container ul li a {
+    transition: 1s;
     padding: 10px;
     border: 1px solid #000;
     border-radius: 9999px;
@@ -163,11 +165,13 @@
   #navbar .nav-container .burger-link-container {
     color: white;
     background: linear-gradient(to bottom, var(--secundary-color) 15%, rgba(0, 0, 0, 0.062745098) 90%);
+    transition: 1s;
   }
   #navbar .nav-container .burger-link-container #buttonChanger {
     display: none;
   }
   #navbar .nav-container .burger-link-container #navList {
+    transition: 1s;
     box-shadow: -10px -300px 20px var(--secundary-color);
     display: flex;
     flex-direction: row;
@@ -184,6 +188,12 @@
   }
   #navbar .nav-container .burger-link-container #navList #configEnv #lenguageChanger {
     font-size: 2rem;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border: 1px solid var(--secundary-color);
+  }
+  #navbar .nav-container .burger-link-container #navList #configEnv #lenguageChanger:hover {
+    cursor: pointer;
   }
   #navbar .nav-container .burger-link-container #navList #configEnv #colorChanger {
     background-color: var(--primary-color);

@@ -71,4 +71,78 @@
     rotate: 20deg;
     width: 17%;
   }
+}
+@media screen and (min-width: 1024px) {
+  .SkillsContent {
+    margin: 50px 0;
+  }
+  .SkillsContent .SkillsTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .SkillsContent .SkillsTitle h1 {
+    color: var(--primary-color);
+    font-size: 4.5em;
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+  .SkillsList {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .SkillsList .techIcon {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    gap: 50px;
+  }
+  .SkillsList .techIcon .techDiv {
+    border: var(--primary-color) solid 1px;
+    box-shadow: 0px 0px 30px var(--secundary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0px;
+  }
+  .SkillsList .techIcon .techDiv .icon {
+    height: 100px;
+    color: var(--primary-color);
+  }
+  .SkillsList .techIcon .techDiv span {
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: 0.5px var(--primary-color);
+    -moz-text-shadow: 0px 0px 30px var(--primary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--primary-color);
+  }
+  .SkillsList .techIcon .techDiv:hover {
+    background: var(--primary-color);
+  }
+  .SkillsList .techIcon .techDiv:hover .icon {
+    color: var(--secundary-color);
+  }
+  .SkillsList .techIcon .techDiv:hover span {
+    color: var(--secundary-color);
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+  .SkillsList .techIcon #inProgress::after {
+    content: "In Progress";
+    font-size: 17px;
+    position: absolute;
+    background-color: var(--secundary-color);
+    color: white;
+    margin: 0 0 120px 100px;
+    text-align: center;
+    rotate: 20deg;
+    width: 5%;
+  }
 }/*# sourceMappingURL=Skills.css.map */

@@ -6,6 +6,7 @@
   position: fixed;
 }
 .bubbles span {
+  transition: 1s;
   width: 30px;
   height: 30px;
   background: var(--primary-color);
@@ -15,6 +16,7 @@
   animation-duration: calc(120s / var(--i));
 }
 .bubbles span:nth-child(even) {
+  transition: 1s;
   box-shadow: 0 0 0 10px rgba(79, 195, 220, 0.2666666667), 0 0 50px var(--primary-color), 0 0 100px var(--primary-color);
   background: var(--primary-color);
 }

@@ -119,4 +119,123 @@
   .ProjectsContent #ProjectsList #ProjectItem:hover {
     height: auto;
   }
+}
+@media screen and (min-width: 1024px) {
+  .ProjectsContent {
+    z-index: 0;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ProjectsContent .ProjectsTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .ProjectsContent .ProjectsTitle h1 {
+    color: var(--primary-color);
+    font-size: 4.5em;
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+  .ProjectsContent #ProjectsList {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 90%;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem {
+    border-radius: 5%;
+    padding: 20px;
+    border: var(--primary-color) solid 1px;
+    box-shadow: 0px 0px 30px var(--secundary-color);
+    width: 40%;
+    transition: height 5s;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectImage img {
+    border-radius: 5%;
+    height: 220px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectTitle h1 {
+    color: var(--primary-color);
+    font-size: 2em;
+    -webkit-text-stroke: 0.5px var(--secundary-color);
+    -moz-text-shadow: 0px 0px 30px var(--secundary-color);
+    -webkit-text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 30px var(--secundary-color);
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectTechs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectTechs .icon {
+    color: var(--primary-color);
+    height: 30px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectInfo {
+    margin: 20px 0px;
+    color: var(--primary-color);
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories span {
+    color: var(--secundary-color);
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories button {
+    background: linear-gradient(to right, #1f2732, var(--primary-color));
+    margin: 0 5px 0 5px;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    padding: 8px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories button a {
+    font-size: 20px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories button .icon {
+    margin-right: 5px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Repositories button:hover {
+    transform: scale(1.2);
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Deploy button {
+    border: 1px solid var(--primary-color);
+    margin: 0 5px 0 5px;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    padding: 8px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Deploy button a {
+    font-size: 20px;
+  }
+  .ProjectsContent #ProjectsList #ProjectItem #ProjectLinks #Deploy button .icon {
+    margin-right: 5px;
+  }
 }/*# sourceMappingURL=Projects.css.map */
